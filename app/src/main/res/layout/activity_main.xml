@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:text="Student Placement Predictor"
+        android:textAlignment="center"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:textColor="@color/black">
+    </TextView>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter cgpa"
+        android:id="@+id/cgpa"
+        android:layout_marginTop="40dp">
+    </EditText>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter iq"
+        android:id="@+id/iq"
+        android:layout_marginTop="40dp">
+    </EditText>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Profile Score"
+        android:id="@+id/profile_score"
+        android:layout_marginTop="40dp">
+    </EditText>
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="match_parent"
+        android:layout_height="66dp"
+
+        android:layout_marginTop="40dp"
+        android:backgroundTint="@color/black"
+        android:text="Submit" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textAlignment="center"
+        android:textSize="40dp"
+        android:layout_marginTop="40dp"
+        android:id="@+id/result">
+
+    </TextView>
+
+</LinearLayout>
